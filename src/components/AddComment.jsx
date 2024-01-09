@@ -51,7 +51,7 @@ const AddComment = ({ commento, aggiornaCommenti }) => {
           type="text"
           value={commentObject.comment}
           onChange={(e) => {
-            setCommentObject({ ...commentObject, comment: e.target.value });
+            setCommentObject({ ...commentObject, comment: e.target.value, elementId: commento });
           }}
           required
         />

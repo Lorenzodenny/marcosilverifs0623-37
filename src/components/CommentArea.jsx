@@ -22,7 +22,7 @@ const CommentArea = (props) => {
       {
         headers: {
           Authorization:
-            'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTljMjljZGUwZGQxZDAwMTgyZDE4YjQiLCJpYXQiOjE3MDQ3MzMxMzMsImV4cCI6MTcwNTk0MjczM30.iQcrWjbTsWpnknSarl5aGt0OIZdVmCV9H_Zgypx-EKE',
+            'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTczNzg5YmZlMDMxZTAwMTliYTFjNzkiLCJpYXQiOjE3MDQ4MDY2OTEsImV4cCI6MTcwNjAxNjI5MX0.11C0IO75d_FrHrNyQvZQ8zCGBdJp5K401T2byD0qAzA',
         },
       }
     )
