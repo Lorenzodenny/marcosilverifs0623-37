@@ -1,11 +1,11 @@
 import { Button, Form } from 'react-bootstrap'
 import { useState } from 'react'
 
-const AddComment = ({ bookId, aggiornaCommenti }) => {
+const AddComment = ({ commento, aggiornaCommenti }) => {
   const [commentObject, setCommentObject] = useState({
     comment: '',
     rate: 1,
-    elementId: bookId,
+    elementId: commento,
   });
 
   const sendNewReview = async (e) => {
